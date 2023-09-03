@@ -1,0 +1,46 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+.Navbar h1{
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.Navbar h1:hover{
+    color: rgb(255, 120, 120);
+}
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.Navbar li{
+list-style: none;
+font-size: 1.3rem;
+font-weight: 600;
+cursor: pointer;
+transition: 0.2s ease-in;
+}
+.Navbar li:hover{
+    color: rgb(255, 120, 120);
+}
+
+.Navbar .contact{
+
+    padding: 0.5rem;
+    border: 2px solid;
+}
+.Navbar .contact:hover{
+    color: white;
+    background-color:rgb(255, 120, 120) ;
+    border-radius: 0.3rem;
+}
+@media (max-width:1600px) {
+    .Navbar{
+     
+        margin: 0 2rem;
+    }  
+}
