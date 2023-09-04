@@ -3,17 +3,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+.Services h2{
+    font-weight: bolder;
+}
+.serv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 .card{
     height: 300px;
-    width: 400px;
+    width: 500px;
     color: white;
+   transition: 0.2s ease-in;
+}
+.card:hover{
+    border-radius: 0.5rem;
+}
+.ser-txt{
+    background-color: rgba(0, 0, 0, 0.345);
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    display: none;
     
-
+    cursor: pointer;
 }
 .ser-txt h2{
     font-size: 1.5rem;
@@ -21,9 +42,18 @@
 .ser-txt p{
     font-size: 1.1rem;
 }
+.ser-txt button{
+    cursor: pointer;
+    height: 3rem;
+    width: 100px;
+    border-radius: 0.3rem ;
+    border: none;
+    font-weight: bold;
+}
 /* .ser-txt{
     display: none;
-}
+}*/
 .card:hover .ser-txt{
-    display: block;
-} */
+    display: flex;
+    border-radius: 0.5rem;
+} 
