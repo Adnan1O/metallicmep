@@ -1,15 +1,15 @@
 import React from 'react'
-import "./Services.css"
+import "./Projects.css"
 import pic2 from "../img/pic2.jpg"
 import pic3 from "../img/pic3.jpg"
 import pic4 from "../img/pic4.jpg"
 import pic5 from "../img/pic5.jpg"
 
 
-function Services() {
+function Projects() {
   return (
     <div className='Services'>
-      <h2>OUR SERVICES</h2>
+      <h2>OUR PROJECTS</h2>
       <div className="serv">
       <div className="card"  
       style={{backgroundImage: `url(${pic2})`,
@@ -74,4 +74,4 @@ function Services() {
   )
 }
 
-export default Services
+export default Projects

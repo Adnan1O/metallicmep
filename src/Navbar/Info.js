@@ -16,7 +16,7 @@ function Info() {
         </div>
         <div className="numb">
             <img src={aus} alt="" />
-            <span>+91 987654321</span>
+            <span>+1 987654321</span>
         </div>
         <div className="numb">
             <img src={mail} alt="" />
