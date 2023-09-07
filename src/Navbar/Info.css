@@ -1,0 +1,42 @@
+.Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-area{
+    width: 60%;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    gap: 1rem;
+}
+.numb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.numb img{
+    height: 30px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+.socials span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.socials span svg{
+    font-size: 25px;
+}
