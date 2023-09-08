@@ -38,9 +38,21 @@ transition: 0.2s ease-in;
     background-color:rgb(255, 120, 120) ;
     border-radius: 0.3rem;
 }
+.responsive{
+    display: none;
+}
 @media (max-width:1600px) {
     .Navbar{
      
         margin: 0 2rem;
     }  
+}
+@media (max-width:800px){
+    .Navbar ul{
+        display: none;
+        
+    }
+    .responsive{
+        display: flex;
+    }
 }
