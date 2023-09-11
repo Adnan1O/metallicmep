@@ -18,7 +18,7 @@
    font-weight: bold;
 }
 .list-item p:hover{
-    border: none;
+    border: white;
     border-radius: .3rem;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }

@@ -2,8 +2,8 @@ import React from 'react'
 import india from "../img/india.png"
 import aus from"../img/aus.png"
 import mail from "../img/mail.png"
-import { BsLinkedin } from 'react-icons/bs';
-import { BsFacebook } from 'react-icons/bs';
+// import { BsLinkedin } from 'react-icons/bs';
+// import { BsFacebook } from 'react-icons/bs';
 import "./Info.css"
 function Info() {
   return (
@@ -25,7 +25,7 @@ function Info() {
       </div>
       <div className="socials">
         <span>Blog</span>
-        <span>Socials:  <BsLinkedin color="#0072b1"/> <BsFacebook color="#1877F2"/></span>
+        <span>Socials:  </span>
       
       </div>
     </div></div>
