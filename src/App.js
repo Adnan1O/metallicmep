@@ -9,14 +9,13 @@ import Test from './Test/Test';
 function App() {
   return (
     <div className="App">
-      {/* <div className="info">
+      <div className="info">
       <Info/>
       </div>
     <Navbar/>
     <Home/>
-    <Footer/> */}
-    <Test/>
-    </div>
+    <Footer/>
+ </div>
   );
 }
 
