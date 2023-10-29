@@ -18,13 +18,13 @@
 }
 .card{
     height: 300px;
-    width: 500px;
+    width: 300px;
     color: white;
    transition: 0.2s ease-in;
 }
 .card:hover{
     border-radius: 0.5rem;
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 .ser-txt{
     background-color: rgba(0, 0, 0, 0.345);

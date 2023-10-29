@@ -14,12 +14,18 @@
    align-items: center;
    justify-content: center;
    border-radius: 0.2rem;
-   transition: 0.3s ease-in;
+   transition: 0.2s ease-in;
    font-weight: bold;
 }
 .list-item p:hover{
+<<<<<<< HEAD
     border: white;
     border-radius: .3rem;
+=======
+    transform: scale(1.05);
+    border: none;
+    border-radius: .5rem;
+>>>>>>> 1a55f019ff3ceadf5b12ef329de2cce5323c13f7
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
 @media (max-width:1600px) {
