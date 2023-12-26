@@ -25,9 +25,7 @@ function Test() {
    <h2>string area</h2>
    <h4 style={{color:"yellow"}}>{dataType === "String"? userInput: ''}</h4>
    </div>    
-  </div>
-  
-   
+  </div>   
     </div>
   )
 }
