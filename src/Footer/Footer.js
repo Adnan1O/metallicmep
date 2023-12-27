@@ -19,6 +19,7 @@ function Footer() {
       </div>
       <div className="second">
         <h2>Quick Links</h2>
+        
         <ul>
         <li>Our Services</li>
         <li>About Us</li>
