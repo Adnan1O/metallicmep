@@ -8,11 +8,11 @@ function Test() {
     const handleInputChange = (event) => {
         setUserInput(event.target.value)
         const input = event.target.value;
-        if (!isNaN(input)) {
-            setDataType('Number');
-          } else {
-            setDataType('String');
-          }
+          if (!isNaN(input)) {
+              setDataType('Number');
+            } else {
+              setDataType('String');
+            }
     }
   return (
     <div className='test'>
