@@ -1,8 +1,7 @@
 .Info{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 .info-area{
     width: 60%;
