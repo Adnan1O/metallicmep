@@ -55,8 +55,7 @@ transition: 0.2s ease-in;
 }
 @media (max-width:800px){
     .Navbar ul{
-        display: none;
-        
+        display: none;       
     }
     .responsive{
         display: flex;
