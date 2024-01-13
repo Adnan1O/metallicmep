@@ -10,6 +10,7 @@ function Responsive() {
         <li></li>
         <li></li>
       </ul>
+      
     </div>
   )
 }
