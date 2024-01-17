@@ -14,6 +14,7 @@ function Test() {
               setDataType('String');
             }
     }
+    
   return (
     <div className='test'>
    <h1>Write something</h1>
