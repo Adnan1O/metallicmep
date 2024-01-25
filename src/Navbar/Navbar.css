@@ -48,8 +48,7 @@ transition: 0.2s ease-in;
     display: none;
 }
 @media (max-width:1600px) {
-    .Navbar{
-     
+    .Navbar{     
         padding: 0 2rem;
     }  
 }
