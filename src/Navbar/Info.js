@@ -1,10 +1,10 @@
 import React from 'react'
 import india from "../img/india.png"
-// import aus from"../img/aus.png"
-// import mail from "../img/mail.png"
-// import { BsLinkedin } from 'react-icons/bs';
-// import { BsFacebook } from 'react-icons/bs';
-// import { BsYoutube } from 'react-icons/bs';
+import aus from"../img/aus.png"
+import mail from "../img/mail.png"
+import { BsLinkedin } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
+import { BsYoutube } from 'react-icons/bs';
 
 import "./Info.css"
 function Info() {
