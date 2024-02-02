@@ -17,6 +17,7 @@ function Footer() {
          <BsYoutube color="#CD201F"/>
             </div>
       </div>
+      
       <div className="second">
         <h2>Quick Links</h2>
         <ul>
