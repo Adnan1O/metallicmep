@@ -40,6 +40,7 @@ function Projects() {
          <button>READ MORE</button>
       </div>
       </div>
+           
       <div className="card"  
       style={{backgroundImage: `url(${pic4})`,
     backgroundRepeat: 'no-repeat',
